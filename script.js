@@ -14,6 +14,7 @@ window.onload = function(){
         var randomNumber = Math.floor(Math.random() * (9999 - 1000 + 1) ) + 1000;
         document.getElementById("random-number-input").value = randomNumber;
         document.getElementById("random-number-submit").value = "";
+        hideNotify();
     })
 
     // entering the number ---------------------------------
