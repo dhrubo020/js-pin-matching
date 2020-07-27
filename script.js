@@ -36,7 +36,6 @@ window.onload = function(){
             else{
                 //something
             }
-            print(document.getElementById("random-number-submit").value);
             hideNotify();
         })
     }
