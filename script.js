@@ -44,6 +44,7 @@ window.onload = function(){
     // submit btn action --------------------------------
     var submitBtn = document.getElementById("id-submit");
     submitBtn.addEventListener("click",function(){
+        hideNotify() // clear notify before
         count--; //"count" declared on top
         var originalValue = document.getElementById("random-number-input").value;
         var submitValue = document.getElementById("random-number-submit").value;
